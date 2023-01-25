@@ -78,13 +78,13 @@ h1{
 }
 .bt-container{
     text-align: center;
-    .bt{
-        background-color: transparent;
-        border:none!important;
-        color: rgb(249, 181, 181);
-        font-size: 90%;
-        padding: 6px;
-    }
+}
+.bt{
+    background-color: transparent;
+    border:none!important;
+    color: rgb(249, 181, 181);
+    font-size: 90%;
+    padding: 6px;
 }
 .bt-container2{
     display: flex;
