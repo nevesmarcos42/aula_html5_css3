@@ -1,0 +1,101 @@
+header{
+    background-color: rgb(178, 68, 68);
+    padding-top: 10px;
+}
+body{
+    background-color: rgb(45, 45, 45);
+    
+}
+footer{
+    background-color: rgb(90, 9, 9);
+    width: 98%;
+    height: 4%;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgb(226, 98, 98);
+    border-style:solid;
+}
+#primeira{
+    background-color: rgb(249, 181, 181);
+    width: 10%;
+    height: 28px;
+    margin-left: 20px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#segunda{
+    background-color: rgb(249, 181, 181);
+    width: 10%;
+    height: 28px;
+    margin-right: 10px;
+    opacity: 0.4;
+    display: inline-block;
+}
+#terceira{
+    background-color: rgb(133, 49, 49);
+    width: 10%;
+    height: 28px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#quarta{
+    background-color: rgb(93, 33, 33);
+    width: 10%;
+    height: 28px;
+    margin-right: 10px;
+    display: inline-block;
+}
+#quinta{
+    background-color: rgb(222, 113, 113);
+    width: 45%;
+    height: 28px;
+    margin-right: 10px;
+    opacity: 0.5;
+    display: inline-block;
+}
+h1{
+    color: rgb(231, 198, 215);
+    padding-top: 10px;
+    padding-left: 40px;
+    font-size: 300%;
+    font-family: cursive;
+    
+}
+#titulo{
+    width: 70%;
+    height: 50%;
+    display: inline-block;
+}
+#descricao{
+    width: 25%;
+    height: 50%;
+    display: inline-block;
+}
+.bt-container{
+    text-align: center;
+    .bt{
+        background-color: transparent;
+        border:none!important;
+        color: rgb(249, 181, 181);
+        font-size: 90%;
+        padding: 6px;
+    }
+}
+.bt-container2{
+    display: flex;
+}
+.bt2{
+    background-color: rgb(90, 9, 9);
+    width: 25%;
+    height: 28px;
+    color: rgb(249, 181, 181);
+}
+button:hover{
+    background-color: rgb(249, 181, 181);
+    color: brown;
+}
