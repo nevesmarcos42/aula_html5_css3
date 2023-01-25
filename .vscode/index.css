@@ -20,6 +20,9 @@ footer{
     border-color: rgb(226, 98, 98);
     border-style:solid;
 }
+body p{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
 #primeira{
     background-color: rgb(249, 181, 181);
     width: 10%;
@@ -52,7 +55,7 @@ footer{
 }
 #quinta{
     background-color: rgb(222, 113, 113);
-    width: 45%;
+    width: 47%;
     height: 28px;
     margin-right: 10px;
     opacity: 0.5;
@@ -63,7 +66,8 @@ h1{
     padding-top: 10px;
     padding-left: 40px;
     font-size: 300%;
-    font-family: cursive;
+    font-family: Snell Roundhand, cursive;
+    font-style: italic;
     
 }
 #titulo{
@@ -85,6 +89,7 @@ h1{
     color: rgb(249, 181, 181);
     font-size: 90%;
     padding: 6px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 .bt-container2{
     display: flex;
@@ -94,8 +99,16 @@ h1{
     width: 25%;
     height: 28px;
     color: rgb(249, 181, 181);
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 button:hover{
     background-color: rgb(249, 181, 181);
     color: brown;
+}
+#conteudo{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: rgb(249, 181, 181);
+    font-size: 100%;
+    text-align: center;
+    padding-top: 15%;
 }
